@@ -49,6 +49,5 @@ def main():
         # выводим отчёт в виде таблицы с индексами строк
         print(tabulate(report, headers=['position', 'performance'], showindex=True))
 
-
 if __name__ == "__main__":
     main()
